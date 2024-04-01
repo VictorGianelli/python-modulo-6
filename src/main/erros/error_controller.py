@@ -1,7 +1,7 @@
 from typing import Dict
 
-from src.erros.http_bad_request import HttpBadRequestError
-from src.erros.http_unprocessable_entity import HttpUnprocessableEntityError
+from src.errors.http_bad_request import HttpBadRequestError
+from src.errors.http_unprocessable_entity import HttpUnprocessableEntityError
 
 
 def handle_error(error: Exception) -> Dict:
